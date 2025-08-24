@@ -2,6 +2,11 @@ AlgoVisualizer
 
 AlgoVisualizer is an interactive web-based tool that visualizes popular sorting and searching algorithms in real-time. It helps users understand how algorithms work step by step, providing both educational value and a hands-on experience with algorithmic concepts.
 
+
+🔹 For Live Demo click the below link
+    https://varun-kotagiri.github.io/AlgoVisualizer/
+
+
 🔹 Features
 
 Visualize sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, etc.
