@@ -63,12 +63,12 @@ This project avoids frameworks and external dependencies to keep the learning fo
 ## 📁 Project Structure
 
 AlgoVisualizer/
-├── modules/ # JavaScript modules for logic & UI
-├── index.html # Main application HTML
-├── searching.html # Searching algorithm visualization page
-├── sorting.html # Sorting algorithm visualization page
-├── style.css # Project styling
-└── README.md # Documentation
+- ├── modules/ # JavaScript modules for logic & UI
+- ├── index.html # Main application HTML
+- ├── searching.html # Searching algorithm visualization page
+- ├── sorting.html # Sorting algorithm visualization page
+- ├── style.css # Project styling
+- └── README.md # Documentation
 
 
 ---
@@ -92,27 +92,21 @@ Behind the scenes, the JavaScript logic manipulates DOM elements representing ar
 
 ### 📌 Clone the Repo
 
-```bash
 git clone https://github.com/varun-kotagiri/AlgoVisualizer.git
 cd AlgoVisualizer
 
-🚀 Future Enhancements
+### 🚀 Future Enhancements
 
-Here are some features you could add:
-
-Pathfinding visualizations (A*, Dijkstra, BFS, DFS)
-
-Graph & tree algorithm visualizations
-
-Complexity metrics displayed alongside animations
-
-Dark mode / theme support
-
-Mobile responsiveness improvements
+- Here are some features you could add:
+- Pathfinding visualizations (A*, Dijkstra, BFS, DFS)
+- Graph & tree algorithm visualizations
+- Complexity metrics displayed alongside animations
+- Dark mode / theme support
+- Mobile responsiveness improvements
 
 
-👤 Author
+### 👤 Author
 
-Varun Kotagiri
-GitHub: https://github.com/varun-kotagiri
+- Varun Kotagiri
+- GitHub: https://github.com/varun-kotagiri
 
