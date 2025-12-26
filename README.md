@@ -1,46 +1,118 @@
-AlgoVisualizer
+# 🚀 AlgoVisualizer
 
-AlgoVisualizer is an interactive web-based tool that visualizes popular sorting and searching algorithms in real-time. It helps users understand how algorithms work step by step, providing both educational value and a hands-on experience with algorithmic concepts.
+**AlgoVisualizer** is an interactive, web-based tool that visualizes popular **sorting** and **searching algorithms** in real-time.  
+It helps users — especially students and developers — understand how algorithms work by animating steps like comparisons, swaps, and traversals visually in the browser.
+
+📍 **Live Demo:**  
+https://varun-kotagiri.github.io/AlgoVisualizer/
+
+---
+
+## 🧠 Overview
+
+Algorithm visualization is a powerful educational technique to make abstract algorithmic concepts concrete and understandable. AlgoVisualizer allows users to:
+
+✔ See how classic algorithms operate *step-by-step*  
+✔ Adjust array size and animation speed  
+✔ Choose between sorting and searching visualizations  
+✔ Interactively watch elements move, compare, and swap  
+
+This project uses **vanilla JavaScript**, **HTML**, and **CSS** — no libraries or frameworks — making it lightweight and easy to understand.
+
+---
+
+## 🔍 Features
+
+### 🔹 Sorting Algorithms
+The app visually demonstrates how common sorting methods reorganize data:
+- **Bubble Sort**
+- **Selection Sort**
+- **Insertion Sort**
+- **Merge Sort**
+- **Quick Sort**
+
+_Elements are represented by vertical bars whose heights correspond to their values. Visual cues show comparisons and swaps in motion._
+
+### 🔹 Searching Algorithms
+Visualize how searching works over an array:
+- **Linear Search**
+- **Binary Search**
+
+_Elements are highlighted as they are checked, showing how the algorithm finds (or doesn’t find) the target._
+
+### 🎛️ Custom Controls
+- Adjustable **array size**  
+- Adjustable **animation speed**  
+- Start, pause, reset, and replay animations  
+- Clean, responsive UI for focused learning
+
+---
+
+## 🛠️ Built With
+
+| Technology | Purpose |
+|------------|---------|
+| **HTML** | Structure & layout |
+| **CSS** | Styling and visuals |
+| **JavaScript** | Algorithm logic & animation |
+
+This project avoids frameworks and external dependencies to keep the learning focus on core technologies.
+
+---
+
+## 📁 Project Structure
+
+AlgoVisualizer/
+├── modules/ # JavaScript modules for logic & UI
+├── index.html # Main application HTML
+├── searching.html # Searching algorithm visualization page
+├── sorting.html # Sorting algorithm visualization page
+├── style.css # Project styling
+└── README.md # Documentation
 
 
-🔹 For Live Demo click the below link
-    https://varun-kotagiri.github.io/AlgoVisualizer/
+---
+
+## 🧠 How It Works
+
+1. **Select an algorithm** from the dropdown.
+2. **Configure array size** and **speed**.
+3. Press **Start** to watch the algorithm run.
+4. The visualization highlights:
+   - Comparisons
+   - Swaps
+   - Traversals  
+   helping you intuitively understand algorithm behavior.
+
+Behind the scenes, the JavaScript logic manipulates DOM elements representing array bars and updates them based on algorithm steps.
+
+---
+
+## 🔧 Getting Started
+
+### 📌 Clone the Repo
+
+```bash
+git clone https://github.com/varun-kotagiri/AlgoVisualizer.git
+cd AlgoVisualizer
+
+🚀 Future Enhancements
+
+Here are some features you could add:
+
+Pathfinding visualizations (A*, Dijkstra, BFS, DFS)
+
+Graph & tree algorithm visualizations
+
+Complexity metrics displayed alongside animations
+
+Dark mode / theme support
+
+Mobile responsiveness improvements
 
 
-🔹 Features
+👤 Author
 
-Visualize sorting algorithms like Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, etc.
+Varun Kotagiri
+GitHub: https://github.com/varun-kotagiri
 
-Visualize searching algorithms like Linear Search and Binary Search.
-
-Dynamic array size: Users can adjust the number of elements to visualize different scenarios.
-
-Adjustable speed: Change the visualization speed to observe algorithm behavior.
-
-Interactive UI: Start, pause, reset, and replay animations easily.
-
-🔹 Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Visualization: DOM manipulation for dynamic bars representing array elements
-
-Optional Libraries: None (vanilla JS implementation)
-
-🔹 How It Works
-
-Users select an algorithm from the dropdown menu.
-
-Input the array size and optionally a target value (for searching algorithms).
-
-Click Start, and the algorithm executes step by step, highlighting comparisons and swaps.
-
-Users can observe how the array elements change over time, helping them grasp the algorithm logic visually.
-
-🔹 Future Improvements
-
-Add pathfinding and graph algorithms visualizations.
-
-Integrate color themes and responsive design for better UX.
-
-Provide algorithm complexity information during visualization.
